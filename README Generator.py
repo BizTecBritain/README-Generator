@@ -8,7 +8,7 @@ licenseType = ""
 licenseContents = ""
 if licenseAdd:
     licenseAdd = "## License\n\nDistributed under the " + input("License Type (i.e. MIT): ") + " License. See `LICENSE` for more information."
-    licenseContents = "<li><a href=\"#license\">License</a></li>"
+    licenseContents = "\n    <li><a href=\"#license\">License</a></li>"
 
 print(f"""
 
@@ -63,8 +63,7 @@ print(f"""
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    {licenseContents}
+    <li><a href="#contributing">Contributing</a></li>{licenseContents}
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
